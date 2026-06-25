@@ -1,8 +1,6 @@
 <div align="center">
 
-# UCP Programming Language Compiler
-
-### Compiler Construction Project
+# Compiler Construction Project
 
 Custom Urdu-inspired Programming Language using **Flex (Lex)** and **Bison (Yacc)**
 
