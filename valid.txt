@@ -1,0 +1,41 @@
+ucp main() 
+@{
+    shuru
+        likho("Enter two numbers:");
+        padho(num1);
+        padho(num2);
+
+        kaam sum <- num1 + num2;
+        kaam diff <- num1 - num2;
+        kaam prod <- num1 * num2;
+        kaam div <- num1 / num2;
+
+        likho("Results:");
+        likho("Sum: ");
+        dikhado(sum);
+        likho("Difference: ");
+        dikhado(diff);
+        likho("Product: ");
+        dikhado(prod);
+        likho("Division: ");
+        dikhado(div);
+
+        agar (div <- 0) 
+        @{
+            likho("Division by zero not allowed!");
+        }@
+        magar (div <- 1) 
+        @{
+            likho("Perfect division result!");
+        }@
+
+        jabtak (sum <- 100) 
+        @{
+            likho("Increasing sum...");
+            barhao(sum);
+        }@
+
+        rukjao();
+        wapas 0;
+    khatam
+}@

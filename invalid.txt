@@ -1,0 +1,32 @@
+ucp main() 
+@{
+    shuru
+        likho("Enter two numbers:)
+
+        padho(2num1);               
+        padho(num@2);             
+
+        kaam total <- num1 ++ num2;  
+        kaam result <- num1 ** 2a;    
+        kaam div <- num1 / 0.0.1; 
+
+        agar (result <- @10) 
+        @{    
+            likho("wrong condition");
+        }@
+
+        magar (result <- 100$$) 
+        @{  
+            likho("Extra symbols detected");
+        }@
+
+        jabtak (sum <- 10) 
+        @{
+            likho("Looping);
+            barhao(sum)
+        }@
+
+        rukjao()
+        wapas ;
+    khatam
+}@
