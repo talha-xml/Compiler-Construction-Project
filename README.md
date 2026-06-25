@@ -223,6 +223,9 @@ Errors:
 
 **Muhammad Talha Faizan**
 L1F22BSCS0103
+
 BS Computer Science
+
 University of Central Punjab
+
 Compiler Construction Project
